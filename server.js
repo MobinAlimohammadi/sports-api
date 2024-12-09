@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.use('/api/aggregation', aggregationRoutes);
+app.use('/api/aggregation.js', aggregationRoutes);
 
 
 app.listen(port, () => {
