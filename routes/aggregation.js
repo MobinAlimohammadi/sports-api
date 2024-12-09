@@ -1,5 +1,6 @@
 import express from 'express';
 import { connectDB } from '../config/db.js';
+const router = express.router();
 
 
 router.get('/total-players', async (req, res) => {
